@@ -1,0 +1,175 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+  font-family: 'Noto Sans', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/*font style*/
+.f1, .f2, .f3 {
+  line-height: 1;
+}
+
+.f1{
+  font-size: 32px;
+  color: #424242;
+}
+
+.f2{
+  font-size: 18px;
+  color: #757575;
+}
+
+.f3{
+  font-size: 14px;
+  color: #BDBDBD;
+}
+
+/*navigation*/
+nav{
+  display: inline-block;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: #ffffff;
+  border-bottom : 1px solid ##E0E0E0;
+  padding : 40px;
+  top: 0;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.navi-logo{
+  display: inline-block;
+  letter-spacing: 10px;
+}
+
+.navi-menu{
+  display: inline-flex;
+  float: right;
+  justify-content: space-around;
+}
+
+/* 네비게이션 높이값에 메뉴의 높이와 라인높이를 맞춰준다*/
+.navi-menu li{
+  height: 32px;
+  line-height: 32px;
+  padding: 0 28px;
+}
+
+.active{
+  color: #82B1FF;
+}
+
+
+@media (max-width: 768px){
+  nav .navi-logo
+   {
+    display: block;
+  }
+   ul.navi-menu {
+     float: left;
+     margin: 20px 0 0 0;
+   }
+   ul.navi-menu li {
+     padding: 0 28px 0 0;
+   }
+
+}
+
+
+/*포스팅 리스트 부분*/
+.container{
+  display: block;
+  padding :120px 0;
+  background-color: #fafbfc;
+}
+
+.post{
+  max-width: 768px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.blog-post{
+  display: block;
+}
+
+.post-item{
+  display: block;
+  height: auto;
+  padding: 60px 60px 0 60px;
+}
+.post-date{
+  display: block;
+  margin-bottom: 12px;
+}
+.post-title{
+  display: block;
+  line-height: 1.2;
+  margin-bottom: 12px;
+}
+.post-subtitle{
+  display: block;
+  line-height: 1.8;
+}
+.post-line{
+  background-color: #ECEFF1;
+  height: 1px;
+  width: 100%;
+  margin-top: 10%;
+}
+
+@media (max-width: 768px){
+  .container{
+    padding-top: 160px
+  }
+}
+.post-content{
+  display: block;
+  height: auto;
+  padding: 40px 0;
+}
+
+.content-img {
+  max-width: 768px;
+  height: auto;
+  padding: 16px 0;
+}
+.content-img img{
+  width: 100%;
+  margin-top:4px;
+}
+
+.content-img-info{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+@media (max-width: 768px){
+  .post-content{
+    padding: 40px;
+  }
+
+}
+
+/*푸터*/
+footer {
+  height: 160px;
+  width: auto;
+  background-color: #f0f1f2;
+}
+
+.footer-content{
+  max-width: 768px;
+  margin: auto;
+  box-sizing: border-box;
+  padding: 60px;
+  color: #757575;
+}
