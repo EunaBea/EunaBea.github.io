@@ -7,6 +7,9 @@
 a {
   text-decoration: none;
 }
+.navi-menu a:hover {
+  color : #448AFF;
+}
 ul {
   list-style: none;
 }
