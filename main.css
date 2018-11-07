@@ -75,8 +75,7 @@ nav{
 
 /* 네비게이션 높이값에 메뉴의 높이와 라인높이를 맞춰준다*/
 .navi-menu li{
-  height: 32px;
-  line-height: 32px;
+  line-height: 42px;
   padding: 0 28px;
 }
 
@@ -87,8 +86,7 @@ nav{
 /*어바웃 부분*/
 .about-row{
   display: block;
-  padding :120px 0;
-  background-color: #ffffff;
+  padding :200px 0;
 }
 .about-column{
   max-width: 1080px;
@@ -126,7 +124,6 @@ nav{
 .container{
   display: block;
   padding :120px 0;
-  background-color: #fafbfc;
 }
 
 .post{
@@ -203,7 +200,7 @@ nav{
 /*푸터*/
 footer {
   width: auto;
-  background-color: #f0f1f2;
+  background-color: #fafbfc;
 }
 
 .footer-content{
