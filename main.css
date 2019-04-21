@@ -95,7 +95,7 @@ nav{
 }
 .about-entry{
   margin: auto;
-  padding: 4em 2em 0 2em;
+  padding: 3rem 2rem 0 2rem;
 }
 .about-contents{
   display: block;
@@ -139,7 +139,7 @@ nav{
 .post-item{
   display: block;
   height: auto;
-  padding: 4em 2em 0 2em;
+  padding: 4rem 2rem 0 2rem;
 }
 .post-date{
   display: block;
