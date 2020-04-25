@@ -148,7 +148,8 @@ nav{
 .post-title{
   display: block;
   line-height: 1.2;
-  margin-bottom: 12px;
+  margin-bottom: 40px;
+  font-weight: 600;
 }
 .post-subtitle{
   display: block;
@@ -179,6 +180,7 @@ nav{
   max-width: 768px;
   height: auto;
   padding: 16px 0;
+  margin: 32px 0;
 }
 .content-img img{
   width: 100%;
