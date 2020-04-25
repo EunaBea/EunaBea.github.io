@@ -89,7 +89,7 @@ nav{
   padding :200px 0;
 }
 .about-column{
-  max-width: 1080px;
+  max-width: 768px;
   margin: auto;
   box-sizing: border-box;
 }
