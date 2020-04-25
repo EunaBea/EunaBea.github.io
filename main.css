@@ -43,7 +43,7 @@ ul {
 }
 .fn{
   font-size: 18px;
-  color: #757575;
+  color: #1a1a1a;
   line-height: 1;
 }
 
@@ -152,6 +152,7 @@ nav{
 }
 .post-subtitle{
   display: block;
+  margin-bottom: 20px;
 }
 .post-line{
   background-color: #ECEFF1;
