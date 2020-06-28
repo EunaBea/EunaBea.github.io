@@ -23,24 +23,27 @@ ul {
 
 /*font style*/
 .f1, .f2, .f3 {
-  line-height: 1.8;
   word-break : keep-all;
 }
 
 .f1{
+  line-height: 1.2;
   font-size: 32px;
   color: #1a1a1a;
 }
 
 .f2{
+  line-height: 1.8;
   font-size: 18px;
   color: #1a1a1a;
 }
 
 .f3{
+  line-height: 1.8;
   font-size: 14px;
   color: #BDBDBD;
 }
+
 .fn{
   font-size: 18px;
   color: #1a1a1a;
@@ -148,7 +151,7 @@ nav{
 .post-title{
   display: block;
   line-height: 1.2;
-  margin-bottom: 40px;
+  margin-bottom: 24px;
   font-weight: 600;
 }
 .post-subtitle{
